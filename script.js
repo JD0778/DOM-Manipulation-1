@@ -1,1 +1,4 @@
-console.log(document.title);
+document.getElementById("taskname1").innerHTML = "Complete the project documentation";
+// what is the difference between document and document in DOM
+
+// In the Document Object Model (DOM), "Document" refers to the interface that represents the entire HTML or XML document. It is the root node from which all other nodes (elements, text, comments, etc.) are derived. The "document" (with a lowercase 'd') is a global variable in JavaScript that provides access to the current document loaded in the browser. Essentially, "Document" is the type or class, while "document" is an instance of that class representing the actual content of the web page.
